@@ -10,7 +10,7 @@
    <!-- 账号服务 -->
 	<dubbo:service interface="com.caxs.base.service.IUsrRoleService" ref="usrRoleService" />
 	
-
+	<dubbo:service interface="com.caxs.base.service.IUser" ref="usrService"/>
 
 
 </beans>	
